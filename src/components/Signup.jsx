@@ -90,7 +90,7 @@ const Signup = () => {
     return (
         <div className="authBanner w-full h-screen p-3 font-nor flex items-center justify-end">
             <div className="min-w-[500px] h-auto backdrop-blur-3xl text-gray-200 mr-20 p-5 flex flex-col items-center justify-center rounded-2xl">
-                <img src={logo} className="w-[200px] h-[130px]" />
+                <img src={logo} alt="logo" className="w-[200px] h-[130px]" />
                 <form
                     className="flex flex-col justify-center items-center py-3 space-y-4 text-lg"
                     onSubmit={handleSubmit}
